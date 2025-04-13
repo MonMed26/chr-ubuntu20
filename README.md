@@ -31,7 +31,5 @@ Panduan ini akan menjelaskan cara menginstal MikroTik CHR (Cloud Hosted Router) 
 
    ```bash
    ./install.sh
-   
 
-   
-
+**Terimakasih**
