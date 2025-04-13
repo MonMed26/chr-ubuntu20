@@ -8,7 +8,7 @@ GATEWAY=`ip route list | grep default | cut -d' ' -f 3` && \
 echo "/ip address add address=$ADDRESS interface=[/interface ethernet find where name=ether1]
 /ip route add gateway=$GATEWAY
 /ip service disable telnet
-/user set 0 name=root password=password123
+/user set 0 name=admin password=password123
  " > /mnt/rw/autorun.scr && \
 umount /mnt && \
 echo u > /proc/sysrq-trigger && \
@@ -17,5 +17,5 @@ echo "sync disk" && \
 echo s > /proc/sysrq-trigger && \
 echo "Sleep 5 seconds" && \
 sleep 5 && \
-echo "Ok, we're rebooting.. user=root pass=password123" && \
+echo "Ok, we're rebooting.. user=admin pass=password123" && \
 echo b > /proc/sysrq-trigger
