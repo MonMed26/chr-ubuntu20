@@ -17,4 +17,21 @@ Panduan ini akan menjelaskan cara menginstal MikroTik CHR (Cloud Hosted Router) 
 
    ```bash
    wget https://raw.githubusercontent.com/MonMed26/chr-ubuntu20/refs/heads/main/install.sh
+
+2. **Chmod Skrip Instalasi**
+
+   Salin skrip berikut ke dalam file di server Ubuntu Anda.
+
+   ```bash
+   chmod +x install.sh
+
+3. **Jalankan Skrip Instalasi**
+
+   Salin skrip berikut ke dalam file di server Ubuntu Anda.
+
+   ```bash
+   ./install.sh
    
+
+   
+
